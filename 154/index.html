@@ -9,18 +9,23 @@
     body {
       padding: 0;
       margin: 0;
-      background-color: #1b1b1b;
+      background-color: #666699;
     }
   </style>
   <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js"></script>
  
   <script>
     function setup() {
+      background(255, 204, 0);
       createCanvas(windowWidth, windowHeight);
-      sqsize = min(width, height);
-      square(0, 0, sqsize);
+      rectMode(CENTER);
+      sqsize = min(width, height) ;
+      strokeWeight(2);
+      stroke(0);
+      square(width/2, height/2, sqsize);
       stroke(255, 0, 0);
-      line(0, sqsize/2, sqsize * 0.8, sqsize/2);
+      origin = width/2 - sqsize/2
+      line(origin, sqsize/2, origin + sqsize * 0.8, sqsize/2);
     }
 
     function draw() {
