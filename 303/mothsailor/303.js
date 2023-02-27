@@ -14,7 +14,7 @@ function setup() {
   // second part
   
   translate(sqsize + gutter*.5, 0);
-  rect(0, 0, sqsize - 200, sqsize);
+  rect(0, 0, sqsize - 50, sqsize);
   // trapezium
   quad(-sqsize/2, -sqsize/2, sqsize/2, -sqsize/2, 
        sqsize/2 + 100, sqsize/2, -sqsize/2 - 100, sqsize/2);

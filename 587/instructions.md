@@ -1,0 +1,1 @@
+A vertical line from floor to ceiling. Through its midpoint, a horizontal line of equal length.  Additional lines through the midpoint of the vertical line. All lines are stright, of equal length, and intersect at their midpoints. The number of lines determined by the draftsman.
