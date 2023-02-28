@@ -1,0 +1,1 @@
+Not straight vertical lines, from floor to ceiling, using as much wall area as is determined by the draftsperson
